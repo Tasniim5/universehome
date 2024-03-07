@@ -58,3 +58,26 @@ body {
     color: #0c0c0c; 
   }
 
+  footer {
+    background-color: #0c0c2e; /* Change the color to your desired background color */
+    color: #fff; /* Change the color to your desired text color */
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #e4d4c4; /* Change the color to your desired link color */
+    font-size: 24px; /* Adjust the font size of the icons */
+}
+
