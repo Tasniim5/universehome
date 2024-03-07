@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+
+body {
+  font-family: "Roboto Mono";
+  font-size: 18px;}
+
+#hero {
+    position: relative;
+    height: 100vh; 
+    background: url('heroimg.png') center/cover no-repeat; 
+    color: #e4d4c4; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-text {
+    z-index: 1; 
+  }
+
+  .hero-text h1 {
+    border: 2px solid #6fa5c1; 
+    padding: 10px; 
+    border-radius: 5px; 
+    color: #e4d4c4; 
+    display: inline-block; 
+    background: linear-gradient(45deg, #15144d, #34949c)
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #e4d4c4;
+    background-color: #0c0c2e; 
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #6fa5c1; 
+  }
+
+  h1 {font-size: 4rem;}
+
+  .hero-text {
+    text-align: center; 
+  }
+  
+  .hero-text h3 {
+    display: inline-block; 
+    padding: 10px; 
+    border: 2px solid  #15144d ; 
+    border-radius: 5px; 
+    background: linear-gradient(45deg, rgba(228, 212, 196, 0.5), rgba(11, 165, 193, 0.5)); 
+    color: #0c0c0c; 
+  }
+
+  rgba (21, 20, 77, 0.5)
